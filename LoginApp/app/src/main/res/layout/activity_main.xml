@@ -7,32 +7,47 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/mainbtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Say hello"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
-
     <EditText
-        android:id="@+id/textInput"
-        android:layout_width="200dp"
+        android:id="@+id/input_username"
+        android:layout_width="250dp"
         android:layout_height="50dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="288dp"
+        android:hint="Username"
         android:text=""
-        android:hint="Write hello"
         android:textAlignment="center"
         android:textColor="#00aefd"
         android:textSize="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/input_password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="356dp"
+        android:hint="Password"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#00aefd"
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="182dp"
+        android:layout_height="48dp"
+        android:text="Login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.785" />
+        app:layout_constraintVertical_bias="0.648" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
