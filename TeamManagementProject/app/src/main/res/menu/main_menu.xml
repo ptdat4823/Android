@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item android:id="@+id/item_home"
+        android:icon="@drawable/home_icon"
+        android:title="Home"/>
+    <item android:id="@+id/item_notification"
+        android:icon="@drawable/notification_icon"
+        android:title="Notification"/>
+    <item android:id="@+id/item_star"
+        android:icon="@drawable/star_icon"
+        android:title="Star"/>
+    <item android:id="@+id/item_addPerson"
+        android:icon="@drawable/person_add_icon"
+        android:title="Add Person"/>
+    <item android:id="@+id/item_search"
+        android:icon="@drawable/search_icon"
+        android:title="Search"/>
+    <item android:id="@+id/item_question"
+        android:icon="@drawable/question_icon"
+        android:title="Question"/>
+</group>
+</menu>
